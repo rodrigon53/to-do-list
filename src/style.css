@@ -1,0 +1,86 @@
+.titulo-pagina {
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+.container-conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.secao-tarefas, .secao-tarefas-concluidas {
+    background-color: #EEE;
+    box-shadow: 0 0 5px 0 black;
+    padding: 20px;
+    width: 500px;
+}
+
+.secao-tarefas-titulo, .secao-tarefas-concluidas-titulo {
+    margin: 10px 0 20px;
+}
+
+.container-inputs {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome-nova-tarefa {
+    flex-grow: 0.9;
+    padding: 0px 5px;
+}
+
+.botao-nova-tarefa {
+    background-color: #c6c689;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lista-tarefas-item, .lista-tarefas-concluidas-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.lista-tarefas-item {
+    background-color: #dcdcad;
+}
+
+.conclui-tarefa, .exclui-tarefa {
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.conclui-tarefa {
+    background-color: #b2dcb2;
+}
+
+.conclui-tarefa:hover {
+    color: #FFF;
+}
+
+.lista-tarefas-concluidas-item {
+    background-color: #b2dcb2;
+}
+
+.exclui-tarefa {
+    background-color: #d08282;
+}
+
+.exclui-tarefa:hover {
+    color: #FFF;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,10 @@
+html, body, h1, main, section, h2, div, input, button, ul, li, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
